@@ -1,0 +1,30 @@
+.details form p {
+    text-align: left;
+}
+
+.details form label {
+    font-size: 2em;
+
+}
+
+.details input[type="radio"] {
+    display: none;
+}
+
+.details label {
+    color: grey;
+}
+
+.clasificacion {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+.details label:hover,
+.details label:hover~label {
+    color: #0d6efd;
+}
+
+.details input[type="radio"]:checked~label {
+    color: #0d6efd;
+}
